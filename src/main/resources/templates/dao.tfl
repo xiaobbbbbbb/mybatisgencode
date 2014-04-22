@@ -1,0 +1,8 @@
+package com.ecarinfo.${module}.dao;
+
+import com.ecarinfo.persist.exdao.ECDao;
+import com.ecarinfo.${module}.po.${className};
+
+public interface ${className}Dao extends ECDao<${className}> {
+
+}

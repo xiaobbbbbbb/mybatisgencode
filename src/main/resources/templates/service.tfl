@@ -1,0 +1,10 @@
+package com.ecarinfo.service.impl;
+
+import com.ecarinfo.persist.po.${name};
+import com.ecarinfo.service.${name}Service;
+import org.springframework.stereotype.Service;
+
+@Service("${name2}Service")
+public class ${name}ServiceImpl extends GenericServiceImpl<${name}> implements
+		${name}Service {
+}
